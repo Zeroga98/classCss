@@ -1,0 +1,151 @@
+.input {
+  input:not([type="range"]) {
+    background: #f9f9f9;
+    border-radius: 0;
+    border: transparent;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  .ant-select-selection--single .ant-select-selection__rendered {
+    background: #f9f9f9;
+    border-bottom: 2px solid #e0e0e0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 15px;
+  }
+  .ant-select-selection--single {
+    border-radius: 0;
+    border: transparent;
+  }
+  .ant-form-item-label > label {
+    font-size: 18px;
+  }
+  &--email {
+    input {
+      height: 51px;
+    }
+    .ant-form-item-label > label {
+      &:before {
+        content: url("../../sass/assets/img/icon/icon-email.svg");
+        margin-right: 11px;
+      }
+      &:after {
+        content: "";
+      }
+    }
+  }
+  &--password {
+    input {
+      height: 51px;
+    }
+    .ant-form-item-label > label {
+      &:before {
+        content: url("../../sass/assets/img/icon/icon-restore-password.svg");
+        margin-right: 11px;
+      }
+      &:after {
+        content: "";
+      }
+    }
+  }
+  &--primary {
+    input {
+      height: 51px;
+    }
+    .ant-form-item-label > label {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 23px;
+      color: #0a3a7d;
+
+      &:before {
+        content: "";
+      }
+      &:after {
+        content: "";
+      }
+    }
+    .ant-select-selection {
+      height: 51px;
+      .ant-select-selection__rendered {
+        height: 51px;
+      }
+    }
+    .ant-select-selection--single .ant-select-selection__rendered {
+      display: flex;
+      align-items: center;
+    }
+  }
+  &--number {
+    .ant-input-number {
+      width: 100%;
+      height: 51px;
+      border-radius: 0;
+      border: transparent;
+    }
+    .ant-input-number-input {
+      height: 51px;
+    }
+
+    .ant-form-item-label > label {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 23px;
+      color: #0a3a7d;
+      &:before {
+        content: "";
+      }
+      &:after {
+        content: "";
+      }
+    }
+  }
+  .has-success {
+    input {
+      border-bottom: 2px solid #06377b !important;
+    }
+  }
+}
+
+.text {
+  color: #06377b !important;
+  &--title {
+    text-transform: uppercase;
+    h4.ant-typography,
+    .ant-typography h4 {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+  &--subtitle {
+    font-weight: bold;
+    line-height: 20px;
+    font-style: normal;
+    font-size: 16px;
+  }
+  &--titleContact {
+    margin-top: 17px;
+    h4.ant-typography,
+    .ant-typography h4 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+  &--subtitleContact {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  &--checkbox {
+    .ant-checkbox + span {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+    }
+  }
+}

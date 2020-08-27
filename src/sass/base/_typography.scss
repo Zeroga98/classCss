@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Dosis Regular";
+  src: url("./../assets/fonts/Dosis-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap");
+
+html,
+body {
+  font-family: "Dosis", sans-serif !important;
+}
+
+@font-face {
+  font-family: "Oswald-Bold";
+  src: url("./../assets/fonts/Oswald-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: bold;
+}
