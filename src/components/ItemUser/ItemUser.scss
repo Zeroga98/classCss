@@ -1,0 +1,14 @@
+.item-user {
+    display: flex;
+    align-items: center;
+    .img {
+        background-color: #ccc;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        margin-right: 12px;
+    }
+    .title{
+        font-size: 18px;
+    }
+}

@@ -1,2 +1,5 @@
-/*
-@import "./../../scenes/Profile/Profile.scss"; */
+
+@import "./../../components/Header/Header.scss", 
+        "./../../components/ItemUser/ItemUser.scss";
+
+@import "./../../scenes/App.scss";

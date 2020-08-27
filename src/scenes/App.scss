@@ -1,0 +1,23 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    .resume {
+        h3 {
+            display: inline-block;
+            font-weight: 600;
+            font-size: 28px;
+            border-bottom: solid 2px #fc176f;
+        }
+        &__content-card {
+            display: flex;
+            .card-resume {
+                width: 219px;
+                height: 80px;
+                background: red;
+                &:not(:last-child) {
+                    margin-right: 50px;
+                }
+            }
+        }
+    }
+}

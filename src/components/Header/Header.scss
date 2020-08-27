@@ -1,0 +1,15 @@
+.header-special {
+    height: 82px;
+    border-bottom: solid 1px #dfdfdf;
+    display: flex;
+    align-items: center;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        background-color: #ccc;
+        width: 133px;
+        height: 40px;
+    }
+}
